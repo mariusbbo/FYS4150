@@ -1,6 +1,6 @@
 # Project 1
 
-Info on how to go through the code for Project 1.
+Solving the Poisson equation as a matrix equation using a general and special algorithm. Error estimates and timing tests are also done. 
 
 
 Problem 2:
