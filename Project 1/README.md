@@ -2,6 +2,7 @@
 
 Info on how to go through the code for Project 1.
 
+
 Problem 2:
 ---------
 Problem2.cpp
@@ -19,6 +20,7 @@ Plot is saved as pdf file.
 
 Run command: python3 Problem2.py
 
+
 Problem 7:
 --------
 Problem7.cpp
@@ -35,6 +37,7 @@ Problem7.py
 Python script that reads the file x_v_vals_n100.txt for n from 10 to 10^4 and make a plot that compares v with u(x) for different n. 
 
 Run command: python3 Problem7.py
+
 
 Problem 8:
 --------
@@ -55,3 +58,14 @@ The absolute and relative error is computed and plotted for each n from 10 to 10
 error is computed and plotted for n from 10 to 10^7. The values of the maximum relative errors are also printed.
 
 Run command: python3 Problem8.py
+
+
+Problem 9:
+--------
+Problem9.cpp
+----
+C++ code that use the special algorithm to solve the matrix equation. 
+
+Build command: g++ Problem9.cpp -o Problem9.exe
+Run command: ./Problem9.exe
+
