@@ -69,3 +69,13 @@ C++ code that use the special algorithm to solve the matrix equation.
 Build command: g++ Problem9.cpp -o Problem9.exe
 Run command: ./Problem9.exe
 
+
+Problem 10:
+--------
+Problem10.cpp
+----
+C++ code that runs timing tests for the general and special algorithm.
+Outputs the run time of the general and special algorithm averaged over 100 timing tests in seconds.
+
+Build command: g++ Problem10.cpp -o Problem10.exe
+Run command: ./Problem10.exe
