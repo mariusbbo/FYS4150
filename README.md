@@ -1,3 +1,3 @@
 # FYS4150
 
-Project info!!!
+Folder for Computational Physics course! 
