@@ -8,9 +8,11 @@ Problem 2:
 Problem2.cpp
 ----
 C++ code that computes the exact solution u(x). 
+
 Outputs values of u(x) and x to a file u_x_vals.txt. 
 
 Build command: g++ Problem2.cpp -o Problem2.exe
+
 Run command: ./Problem2.exe
 
 Problem2.py
