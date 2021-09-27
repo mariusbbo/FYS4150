@@ -4,10 +4,16 @@ Solving an eigenvalue problem for the case with a one-dimensional buckling beam 
 
 Project2.cpp
 ----
-C++ code that does all tasks in Project 2. Contains a function creating a tridiagonal matrix called 
-create_tridiagonal. Another function, called max_offdiag_symmetric, computes the maximum off-diagonal 
-element of this matrix. Then the matrix and this value are used in a function called jacobi_rotate which 
-performs Jacobi's rotation method. A function called jacobi_eigensolver runs jacobi_rotate until convergence is reached. 
+C++ code that does all tasks in Project 2. Contains the following functions included in Jacobi's rotation algorithm
+
+- create_tridiagonal: Creates a tridiagonal matrix A.
+ 
+- max_offdiag_symmetric: Computes the maximum off-diagonal element of A. 
+
+- jacobi_rotate: Performs Jacobi's rotation method. 
+
+- jacobi_eigensolver: Runs jacobi_rotate until convergence is reached. 
+
 Other functions were added to sole the problems in the project:
 
 - analytical_eigvals_and_eigvecs: Computes eigenvalues and eigenvectors analytically, used to compare analytical results 
@@ -28,7 +34,7 @@ eigenvectors corresponding to the three first eigenvalues to file. To use n=10 (
 specified manually.
 
 All problems in the project can be checked by running the functions mentioned above in the main function 
-at the bottom of the code file. 
+at the bottom of the code file.
 
 Build command: g++ Project2.cpp -o Project.exe -larmadillo
 
