@@ -1,6 +1,6 @@
 # Project 2
 
-Solving an eigenvalue problem for the case with a one-dimensional bucking beam using Jacobi's rotational method.
+Solving an eigenvalue problem for the case with a one-dimensional buckling beam using Jacobi's rotational method.
 
 Project2.cpp
 ----
