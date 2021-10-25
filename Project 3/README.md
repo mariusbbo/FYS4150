@@ -20,6 +20,7 @@ The total force on the particles are found and used in the Runge-Kutta 4 and for
 are simulated with a function simulate.
 
 Build: g++ main.cpp src/Particle.cpp src/PenningTrap.cpp -I include/ -o main.exe -O3 -larmadillo
+
 Run: ./main.exe
 
 plot.py
