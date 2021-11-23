@@ -12,7 +12,7 @@ IsingModel.hpp: Contains class IsingModel which declares all function for the Is
 
     -  double initialize_energy: Computes the energy of the initial state.
     -  initialize_magnetization: Computes the magnetization of the initial state.
-    -  create_index_list: Creates list with indices used for determining probability ratios and change in energy. The created list also accounts for periodic boundary                conditions.
+    -  create_index_list: Creates list with indices used for determining probability ratios and change in energy. Also accounts for periodic boundary conditions.
     -  get_index: Finds the index of the index list created with create_index_list which determines the probability ratio and change in energy of a particular spin flip.
     -  probability_ratios: Create list with probability ratios.
     -  delta_E: Create list with the possible changes in energy.
@@ -22,12 +22,13 @@ IsingModel.hpp: Contains class IsingModel which declares all function for the Is
 IsingModel.cpp: Take in lattice size L and a bool which determines if the initial state should be random or ordered. Initializes the lattice with spin states +1 and -1. The initialized lattice can be both random and ordered. Contains all functions in IsingModel.hpp.
 
 MCMC.hpp: Contains class MCMC which declares the function run_MCMC for running the Markov chain Monte Carlo method for the Ising model.
-    -  run_MCMC: - Contains loops over temperature, number of Monte Carlo cycles and number of attempted spin flips.
-                 - Create instance of IsingModel class. 
-                 - Runs the Markov chain Monte Carlo method for all temperatures, number of Monte Carlo cycles and number of attempted spin flips.
-                 - Compute and save analytical results to file.
-                 - Create and save histogram for energy values.
-                 - Compute and save average energy per spin, average magnetization per spin, heat capacity and magnetic susceptibilty to file.
+    -  run_MCMC: 
+        - Contains loops over temperature, number of Monte Carlo cycles and number of attempted spin flips.
+        - Create instance of IsingModel class. 
+        - Runs the Markov chain Monte Carlo method for all temperatures, number of Monte Carlo cycles and number of attempted spin flips.
+        - Compute and save analytical results to file.
+        - Create and save histogram for energy values.
+        - Compute and save average energy per spin, average magnetization per spin, heat capacity and magnetic susceptibilty to file.
                  
 MCMC.cpp: Initialize number of temperature values, number of Monte Carlo cycles, lattice size, number of Monte Carlo cycles that will be ignored due to burn-in, bool which determine if initial state should be random or ordered. Contains the function run_MCMC.
 
