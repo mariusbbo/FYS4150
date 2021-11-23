@@ -34,12 +34,12 @@ MCMC.cpp: Initialize number of temperature values, number of Monte Carlo cycles,
 main.cpp
 ----
 C++ code that runs the run_MCMC function from the MCMC class. Run timing tests with and without parallelization. Set values for the following variables:
-      - Temperature range
-      - Number of temperature values
-      - Number of Monte Carlo cycles
-      - Lattice size
-      - Number of Monte Carlo cycles that will be ignored due to burn-in
-      - Bool ordered which determines if initial state is random or ordered
+  - Temperature range
+  - Number of temperature values
+  - Number of Monte Carlo cycles
+  - Lattice size
+  - Number of Monte Carlo cycles that will be ignored due to burn-in
+  - Bool ordered which determines if initial state is random or ordered
     
 Build: 	g++ main.cpp src/IsingModel.cpp src/MCMC.cpp -I include/ -o main.exe -larmadillo -fopenmp
 
