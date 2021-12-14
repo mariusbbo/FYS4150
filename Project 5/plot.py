@@ -76,7 +76,7 @@ plot(t_points_p7/1e-3, deviation_nowall/1e-15, "", r"Deviation of total probabil
 figure = plt.gcf()
 figure.set_size_inches(8, 6)
 plt.savefig("deviation_nowall.pdf")
-plt.show()
+# plt.show()
 
 # Plot the deviation of the total probability from 1 as function of time for a box with a double-slit
 plot(t_points_p7/1e-3, deviation_doubleslit/1e-15, "", r"Deviation of total probability from 1, d   ouble-slit",
@@ -263,7 +263,6 @@ def make_animation(p, t_points):
 
 # Create animations for box with single slit, double-slit, triple-slit and no slits
 # Also use arrays with different time points
-make_animation(np.sqrt(p_doubleslit), t_points_p7)
 make_animation(p_doubleslit, t_points_p7)
 make_animation(p_singleslit, t_points_p8)
 make_animation(p_tripleslit, t_points_p8)
